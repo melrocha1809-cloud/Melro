@@ -1,0 +1,217 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>Musée Louvre</title > <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css '/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Museo</a>
+          <a href="#secc2">Libros</a>
+          <a href="#secc3">Ponentes</a>
+          <a href="#secc4">Cinematografía</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Musee Louvre</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+             </div>
+
+
+		        <img src="imagenes/imbase.png" style="display: block; margin-left: auto; margin-right: auto;">
+		        </div>
+
+		        <p>El Louvre es el museo de arte más visitado del mundo,​ famoso por sus obras maestras, especialmente la pintura renacentista conocida como La Gioconda, de Leonardo da Vinci. Otras piezas destacadas fueron seleccionadas en 2020 por el propio museo bajo el título 24 obras imprescindibles. La lista comprende, además de la ya citada pintura, obras como el Código de Hammurabi, El escriba sentado, La consagración de Napoleón y La Libertad guiando al pueblo, entre otras</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		       
+		        <br><!--etiqueta para un brinco de renglón-->
+
+    		</div>
+
+    	
+          
+          <a href="360visualizar.html">
+	     
+       </a>
+
+         </div>
+           <!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="contenedor-imagen">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="contenedor-imagen" style="text-align: center;">
+    				<!--si se quiere modificar contenido sustituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b" style="display: inline-block;">
+	       <p> El Museo Louvre cuenta con una hermosa vista nocturna, destacando lo más bello de en su arquitectura.</p>
+	        		<a href="360Visualizar.html">
+	        		<img src="imagenes/img1a.png" title="Img 1a" style="display: block; margin: 0 auto;">
+	        
+                         
+
+	        	</a>
+	        	<!--texto para la imagen 360-->
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    					<br>  Haz clic a la imagen para verlo completo en 360º </br>
+	        		<!--texto para imagen a la derecha-->
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="img1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="img1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Libros</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Esta selección de libros reúne algunas de las obras más influyentes sobre el control social, la manipulación de masas y la pérdida de libertad en las sociedades modernas. A través de la ficción, el análisis psicológico y el testimonio personal, cada autor revela diferentes formas en las que el poder puede moldear la mente, el comportamiento y el destino de los pueblos.
+
+            1984, de George Orwell, presenta un mundo donde la vigilancia absoluta y la censura eliminan el pensamiento libre. Un Mundo Feliz, de Aldous Huxley, muestra una sociedad aparentemente feliz, pero construida sobre la programación psicológica y la renuncia total a la individualidad. The Rape of the Mind, de Joost Meerloo, profundiza en las técnicas reales de control mental utilizadas para someter a las personas mediante presión, propaganda y miedo. Finalmente, Confesiones de un Sicario Económico, de John Perkins revela cómo el poder económico global manipula países enteros para beneficio político y corporativo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En conjunto, estos libros funcionan como una exposición crítica sobre la libertad, cuestionando hasta qué punto la sociedad puede ser moldeada sin que las personas lo noten. Esta sección busca invitar al visitante a reflexionar sobre su propio entorno, los sistemas de control que lo rodean y la importancia de mantener un pensamiento libre y consciente.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>Títulos que examinan cómo se moldea el pensamiento humano a través del control político, económico y psicológico.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Ponentes</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Pável Dúrov</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La advertencia de Pável Dúrov, fundador de Telegram, se ha convertido en una de las reflexiones más inquietantes de nuestra era digital. Dúrov afirma que somos la última generación verdaderamente libre, señalando cómo gobiernos y corporaciones están ampliando su capacidad de vigilancia y control sobre la vida cotidiana. Según él, el avance acelerado de la tecnología —particularmente la inteligencia artificial y la recolección masiva de datos— está creando sistemas capaces de rastrear, predecir y manipular el comportamiento humano con una precisión sin precedentes..</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>“Si no actuamos, la próxima generación ya no conocerá la libertad, solo el control.”</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Cinematografía</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Esta selección de películas reúne tres obras críticas que exploran, desde distintos ángulos, la manipulación política, la ingeniería social y los sistemas de poder que moldean la vida contemporánea. Land of the Blind, una sátira oscura, expone cómo los regímenes autoritarios pueden surgir y transformarse bajo promesas de cambio, revelando que la opresión puede adoptar múltiples rostros.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Por otro lado, Zeitgeist: The Movie cuestiona narrativas establecidas sobre religión, política y economía, invitando al espectador a reflexionar sobre la influencia de los discursos oficiales en la construcción de la realidad social. Finalmente, The Money Masters profundiza en la historia del sistema financiero moderno, mostrando cómo los bancos centrales, la deuda y la creación de dinero han sido utilizados para controlar naciones enteras.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		
+        		<!--texto para la imagen-->
+        		<a href="https://www.youtube.com/channel/UCQhEwVQdY4iqxX_6HRS9rwA" target="_blank">
+        			<img src="imagenes/img4.png" title="Img 4" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        		</a>
+        		<p> <center> Da click a la imagen para ver los trailers </center></p>
+    		</div>
+
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
